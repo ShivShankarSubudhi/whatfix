@@ -10,6 +10,14 @@ Your program should accept as its first argument a path to a filename. Each line
 4;1,4,2,3,2,3,1,4,4,2,3,1,3,1,4,2
 4;2,1,3,2,3,2,1,4,1,4,2,3,2,3,4,1
 
+OUTPUT SAMPLE:
+
+Print out True/False if the grid is a valid sudoku layout. E.g.
+
+True
+False
+
+
 
 ROAD TRIP
 
@@ -24,3 +32,16 @@ Rkbs,5453; Wdqiz,1245; Rwds,3890; Ujma,5589; Tbzmo,1303;
 Vgdfz,70; Mgknxpi,3958; Nsptghk,2626; Wuzp,2559; Jcdwi,3761;
 Yvnzjwk,5363; Pkabj,5999; Xznvb,3584; Jfksvx,1240; Inwm,5720;
 Ramytdb,2683; Voclqmb,5236;
+
+OUTPUT SAMPLE:
+
+Print out the distance from the starting point to the nearest city, and the distances between two nearest cities separated by comma, in order they appear on the route. E.g.
+
+1245,58,2587,1563,136
+70,2489,67,1135,197
+1240,2344,1779,357,279
+2683,2553
+Constrains:
+Cities are unique, and represented by randomly generated string containing latin characters [A-Z][a-z].
+The route length is an integer in range [10000, 30000]
+The number of cities is in range [500, 600]
